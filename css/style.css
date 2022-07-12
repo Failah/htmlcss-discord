@@ -125,8 +125,12 @@ header .middle-navbar h4 {
 
 .grey-section {
     background-color: #ccc;
-    height: 500px;
-    padding: 80px 300px;
+    justify-content: space-between;
+    padding: 80px 90px;
+}
+
+.grey-section>div {
+    margin-left: 80px;
 }
 
 .image2 {

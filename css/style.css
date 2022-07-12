@@ -17,6 +17,10 @@ body {
     display: flex;
 }
 
+.grow {
+    flex-grow: 1;
+}
+
 .row {
     flex-direction: row;
 }
@@ -27,6 +31,10 @@ body {
 
 .section-title {
     font-weight: 800;
+}
+
+.purple-text {
+    color: #4a5882;
 }
 
 
@@ -108,7 +116,7 @@ header .middle-navbar h4 {
 .white-section {
     justify-content: space-between;
     background-color: white;
-    padding: 80px 125px;
+    padding: 80px 250px;
 }
 
 .image1 {
@@ -126,7 +134,7 @@ header .middle-navbar h4 {
 .grey-section {
     background-color: #ccc;
     justify-content: space-between;
-    padding: 80px 90px;
+    padding: 80px 250px;
 }
 
 .grey-section>div {
@@ -143,7 +151,7 @@ header .middle-navbar h4 {
     text-align: center;
     background-color: #ccc;
     height: 500px;
-    padding: 80px 300px;
+    padding: 80px 250px;
     justify-content: space-around;
 }
 
@@ -153,16 +161,23 @@ header .middle-navbar h4 {
 }
 
 .footer-up {
-    justify-content: space-around;
-    padding: 80px 300px;
+    padding: 80px 250px;
+    justify-content: space-between;
 }
 
-hr {
-    width: 630px;
-    margin: 0 auto;
+.footer-links {
+    justify-content: space-around;
+}
+
+footer hr {
+    width: 1400px;
+    margin: 25px auto;
+    background-color: #4a5882;
+    height: 1px;
+    border: none;
 }
 
 .footer-down {
     justify-content: space-between;
-    padding: 80px 300px;
+    padding: 80px 250px;
 }

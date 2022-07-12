@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 
 /* utilities */
 
@@ -25,18 +29,26 @@
 /* specifics */
 
 header {
-    background-color: #3161e0;
-    height: 500px;
-    justify-content: flex-start;
+    background-color: #255ee9;
+    color: white;
+}
+
+header .middle-navbar h4 {
+    padding: 0 15px;
 }
 
 .top-navbar {
     justify-content: space-around;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 100px 0px 100px;
 }
 
 .middle-navbar {
     justify-content: space-around;
+}
+
+#header-body {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .center-header {
@@ -54,6 +66,7 @@ header {
 .banner-buttons {
     justify-content: center;
     padding-top: 40px;
+    margin-bottom: 110px;
 }
 
 .button {

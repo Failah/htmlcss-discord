@@ -96,7 +96,7 @@ header .middle-navbar h4 {
 #down-button {
     padding: 15px;
     background-color: white;
-    border-radius: 18px;
+    border-radius: 25px;
     border: none;
     font-family: 'Roboto';
     font-weight: 900;
@@ -104,8 +104,7 @@ header .middle-navbar h4 {
 
 #open-button {
     padding: 15px;
-    background-color: white;
-    border-radius: 18px;
+    border-radius: 25px;
     border: none;
     font-family: 'Roboto';
     font-weight: 900;
@@ -150,23 +149,60 @@ header .middle-navbar h4 {
 .grey-section2 {
     text-align: center;
     background-color: #ccc;
-    height: 500px;
     padding: 80px 250px;
     justify-content: space-around;
+}
+
+.grey-section2 h1 {
+    padding: 25px 0px;
+}
+
+#adventure-start {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    margin-bottom: 35px;
+    padding-top: 100px;
+}
+
+#down-button2 {
+    padding: 15px;
+    color: white;
+    background-color: #8ea1e1;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 
 .footer-section {
     background-color: #23272a;
-    height: 500px;
+
 }
 
 .footer-up {
-    padding: 80px 250px;
+    padding: 80px 250px 10px 250px;
     justify-content: space-between;
+}
+
+#language-select {
+    padding: 15px 0;
+}
+
+#ita-flag {
+    width: 10%;
+}
+
+#language-shown {
+    color: white;
 }
 
 .footer-links {
     justify-content: space-around;
+}
+
+.footer-links h4 {
+    color: white;
+    padding: 10px 0px;
 }
 
 footer hr {
@@ -179,5 +215,15 @@ footer hr {
 
 .footer-down {
     justify-content: space-between;
-    padding: 80px 250px;
+    padding: 10px 250px;
+}
+
+#footer-register-button {
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: white;
+    background-color: #8ea1e1;
 }

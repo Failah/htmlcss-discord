@@ -176,7 +176,7 @@ header .middle-navbar h4 {
 
 .footer-section {
     background-color: #23272a;
-
+    padding-bottom: 30px;
 }
 
 .footer-up {
@@ -215,7 +215,12 @@ footer hr {
 
 .footer-down {
     justify-content: space-between;
+    align-items: center;
     padding: 10px 250px;
+}
+
+.footer-down img {
+    vertical-align: middle;
 }
 
 #footer-register-button {
